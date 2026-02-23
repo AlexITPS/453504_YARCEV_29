@@ -1,0 +1,80 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #eef2f7;
+    background: radial-gradient(circle, #ffffff 0%, #d4e1f1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 73, 176, 0.1);
+    text-align: center;
+    max-width: 380px;
+    width: 90%;
+    border-top: 5px solid #0077b6;
+}
+
+.logo {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #023e8a;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+header p {
+    color: #0077b6;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #495057;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.services {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.services li {
+    background: #caf0f8;
+    color: #03045e;
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.btn {
+    display: block;
+    background: #0077b6;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #023e8a;
+    box-shadow: 0 4px 12px rgba(2, 62, 138, 0.3);
+}
