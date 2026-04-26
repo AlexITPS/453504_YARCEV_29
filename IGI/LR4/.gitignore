@@ -1,0 +1,21 @@
+# Виртуальное окружение
+venv/
+
+# Бинарные/временные файлы
+*.png
+*.zip
+data.csv
+data.pkl
+input.txt
+output.txt
+polygon_result.png
+result_plot.png
+results.zip
+
+# Блокировки LibreOffice
+.~lock.*
+
+# Системные файлы
+.DS_Store
+__pycache__/
+*.pyc
